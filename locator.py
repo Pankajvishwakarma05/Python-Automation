@@ -18,5 +18,6 @@ driver.find_element(By.CSS_SELECTOR, "input[name='email']").send_keys("deo@gmail
 driver.find_element(By.ID, "exampleInputPassword1").send_keys("Pv123456")
 driver.find_element(By.ID, "exampleCheck1").click()
 driver.find_element(By.CSS_SELECTOR, "input[value='Submit']").click()
+driver.find_element(By.CSS_SELECTOR, "input[value='Submit']").click()
 
 time.sleep(60)
