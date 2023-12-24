@@ -17,6 +17,7 @@ driver.find_element(By.ID, "autosuggest").send_keys("In")
 time.sleep(2)
 list = driver.find_elements(By.CSS_SELECTOR, "li[class='ui-menu-item'] a")
 print("Number of countries:", len(list))
+print("Number of countries:", len(list))
 
 for country in list:
     if country.text == "India":
