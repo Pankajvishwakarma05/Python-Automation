@@ -21,5 +21,6 @@ driver.find_element(By.ID, "exampleFormControlSelect1").send_keys("Female")
 driver.find_element(By.ID, "inlineRadio1").click()
 driver.find_element(By.CSS_SELECTOR, "input[name='bday']").send_keys("28/09/1998")
 driver.find_element(By.CSS_SELECTOR, "input[value='Submit']").click()
+print("hello")
 
 time.sleep(60)
